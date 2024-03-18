@@ -4,6 +4,13 @@ playing = input("Do you want to play? ")
 
 if playing.lower() == 'yes':
     print("Okay! Let's play :)")
+elif playing.lower() == 'no':
+    print("Okay! Back again to play!")
+    quit()
+else:
+    print("Please type 'Yes' to play :}")
+    quit()
+
 
 score = 0
 
